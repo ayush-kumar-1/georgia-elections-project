@@ -1,0 +1,3 @@
+## Georgia Elections Voter Registration 
+
+This repository contains inactive/active voter registration for every Georgia Election since 2010. There are plans to expand the amount of data available all the way back to the 1996 presidential election. For every election before 2014 the .csv files are broken and need to be fixed. To understand the data and get a feel for it please look at election data from beyond 2014. All of this data is taken straight from the Georgia Secretary of State website. Data from the 2020 election will be added once it is uploaded to the SOS Webpage; this may take a while. 
