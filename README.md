@@ -20,15 +20,15 @@ Election data is highly complex (it's almost like people dedicate their entire l
 
 Election data is complicated to wrap your head around, but we can get a good feel for data by using choropleth maps. The name sounds mysterious, but a choropleth is constructed using borders and various colors. This is why we have shapefiles in this repository. All maps were created using the GeoPandas library. 
 
-![Plot of Presidential Election Results](plots/2020presidentialresults.png)
+![Plot of Presidential Election Results](plots/2020PresidentialResults.png)
 
 Here we have an example of 2020 presidential results. The proportion in this is the proportion of votes that Donald Trump won, we can see that in Dekalb County he only won around 10% votes leaving the lions share for Joe Biden. 
 
-![Plot of Presidential Election Results](plots/2020SenatePerdueresults.png)
+![Plot of Presidential Election Results](plots/2020SenatePerdueResults.png)
 
 Here we have the Percentage of votes won by David Perdue, it looks like almost the exact same map as above. This highlights the weakness of the choropleth map: it can't provide us with perfect exact information. This is unfortunate as there is no other easy way to visualize election data in a way that makes sense without giving up granularity. Looking at bars of 159 counties would be no more helpful than this map. The reality is that David Perdue won more votes than his democratic opponent Jon Ossoff whereas the same cannot be said for Trump. 
 
-![Shift from Presidential to Senate](plots/2020shift.png)
+![Shift from Presidential to Senate](plots/2020Shift.png)
 
 This shift is captured and visualized and we find that many counties shifted red down ballot including some of Georgia's bluest and most populous counties. Note that this is not an absolute proportion, but rather the proportion of votes that flipped down-ballot. David Perdue did not win Fulton, he just won around 0.02% more votes in Fulton county than Trump. This matters quite a lot when we consider that Biden's win over Trump was only 0.03% and we see that this shift around Georgia Down Ballot made all the difference for Senator Perdue. 
 
@@ -36,7 +36,7 @@ This shift is captured and visualized and we find that many counties shifted red
 
 Analyzing Ballot Drop-off will be key to understanding why down-ballot candidates did not perform as well as the president elect and how to increase down ballot wins. 
 
-![Ballot Drop off From Presidential to Senate(Perdue vs. Osoff)](plots/2020dropoff.png)
+![Ballot Drop off From Presidential to Senate(Perdue vs. Osoff)](plots/2020Dropoff.png)
 
 ## Viewing Data
 
